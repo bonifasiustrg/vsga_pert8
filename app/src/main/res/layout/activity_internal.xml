@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InternalActivity"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/btn_makeFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUAT FILE"/>
+
+    <Button
+        android:id="@+id/btn_changeFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UBAH FILE"/>
+
+    <Button
+        android:id="@+id/btn_readFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACA FILE"/>
+
+    <Button
+        android:id="@+id/btn_deleteFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAPUS FILE"/>
+    
+    <TextView
+        android:id="@+id/textRead"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Hasil Baca File"
+        android:background="@color/grey"
+        />
+
+
+</LinearLayout>
